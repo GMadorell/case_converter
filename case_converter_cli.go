@@ -1,4 +1,4 @@
-package main
+package case_converter
 
 import (
 	"fmt"
@@ -48,10 +48,5 @@ func main() {
 		log.Fatal("case_converter accepts a single argument")
 	}
 
-	convertCase(opts.From, opts.To, args[0])
-}
-
-func convertCase(from string, to string, text string) string {
-	fmt.Printf("From: %s, to: %s, text: %s\n", from, to, text)
-	return "Test"
+	ConvertCase(opts.From, opts.To, args[0])
 }
