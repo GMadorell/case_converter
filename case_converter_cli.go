@@ -17,8 +17,8 @@ Usage:
 $ case_converter -f format_from -t format_to some_text
 
 Examples:
-$ case_converter -f snake -t camel some_text
--> someText
+$ case_converter -f camel -t snake someText
+-> some_text
 $ case_converter -f pascal -t kebab SomeText
 -> some-text
 
@@ -30,7 +30,7 @@ Format options (accepted by the -f and -t flags):
 * upper    (ej: SOME EXAMPLE SENTENCE)
 * title    (ej: Some Example Sentence)
 * sentence (ej: Some example sentence)
-* flat     (ej: someexamplesentence)
+* flat     (ej: someexamplesentence)  (not supported for -t flag)
 * kebab    (ej: some-example-sentence)
 * dot      (ej: some.example.sentence)
 `
