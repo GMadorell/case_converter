@@ -1,6 +1,6 @@
 
 # Case Converter
-Haven't you always wanted to convert that pesky camelCase string to beautiful snake-case? You just found the perfect CLI solution for it!
+Haven't you always wanted to convert that pesky camelCase string to beautiful snake\_case? You just found the perfect CLI solution for it!
 
 ## Installation
 
