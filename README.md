@@ -26,13 +26,13 @@ $ case_converter -f pascal -t kebab SomeText
 
 Accepted cases:
 
-* snake    (ej: some_example_sentence)
-* camel    (ej: someExampleSentence)
-* pascal   (ej: SomeExampleSentence)
-* lower    (ej: some example sentence)
-* upper    (ej: SOME EXAMPLE SENTENCE)
-* title    (ej: Some Example Sentence)
-* sentence (ej: Some example sentence)
-* flat     (ej: someexamplesentence)  (not supported for -f flag)
-* kebab    (ej: some-example-sentence)
-* dot      (ej: some.example.sentence)
+* snake    (e.g.: some_example_sentence)
+* camel    (e.g.: someExampleSentence)
+* pascal   (e.g.: SomeExampleSentence)
+* lower    (e.g.: some example sentence)
+* upper    (e.g.: SOME EXAMPLE SENTENCE)
+* title    (e.g.: Some Example Sentence)
+* sentence (e.g.: Some example sentence)
+* flat     (e.g.: someexamplesentence)  (not supported for -f flag)
+* kebab    (e.g.: some-example-sentence)
+* dot      (e.g.: some.example.sentence)
