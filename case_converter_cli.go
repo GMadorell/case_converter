@@ -13,14 +13,18 @@ var opts struct {
 }
 
 const help string = `
-Usage: 
+Usage:
 $ case_converter -f format_from -t format_to some_text
 
 Examples:
-$ case_converter -f camel -t snake someText
+$ case_converter --from camel --to snake someText
 -> some_text
 $ case_converter -f pascal -t kebab SomeText
 -> some-text
+
+Options:
+     -f, --from format of the input  
+     -t, --to   format of the output
 
 Format options (accepted by the -f and -t flags):
 * snake    (ej: some_example_sentence)

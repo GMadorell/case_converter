@@ -16,7 +16,7 @@ $ case_converter -f format_from -t format_to some_text
 
 Examples:
 ```
-$ case_converter -f camel -t snake someText
+$ case_converter --from camel --to snake someText
 -> some_text
 ```
 ```
