@@ -27,16 +27,16 @@ Options:
      -t, --to   format of the output
 
 Format options (accepted by the -f and -t flags):
-* snake    (e.g.: some_example_sentence)
-* camel    (e.g.: someExampleSentence)
-* pascal   (e.g.: SomeExampleSentence)
-* lower    (e.g.: some example sentence)
-* upper    (e.g.: SOME EXAMPLE SENTENCE)
-* title    (e.g.: Some Example Sentence)
-* sentence (e.g.: Some example sentence)
-* flat     (e.g.: someexamplesentence)  (not supported for -t flag)
-* kebab    (e.g.: some-example-sentence)
-* dot      (e.g.: some.example.sentence)
+* snake    (e.g. some_example_sentence)
+* camel    (e.g. someExampleSentence)
+* pascal   (e.g. SomeExampleSentence)
+* lower    (e.g. some example sentence)
+* upper    (e.g. SOME EXAMPLE SENTENCE)
+* title    (e.g. Some Example Sentence)
+* sentence (e.g. Some example sentence)
+* flat     (e.g. someexamplesentence)  (not supported for -t flag)
+* kebab    (e.g. some-example-sentence)
+* dot      (e.g. some.example.sentence)
 `
 
 func main() {
